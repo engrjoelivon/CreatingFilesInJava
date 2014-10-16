@@ -1,0 +1,12 @@
+                                         Creating Files
+when creating files with newfile.createnewfile();when i used the relative path,eventhough the file is 
+succesfully created it was not created within the package of the program that invoked it,rather 
+it was created within the project folder.eg when i created a file named file3.txt i was expecting this file 
+to be inside the package Aivco because the program that created it is also there,but it was not created there
+rather it was created inside the Creating file directory,ie inside the project directory that is also where the
+program reside.
+
+
+Absolute path defination is standard as i have always known but relative path meant i had to start from the
+src folder down to the present package folder.This is because the file system goes from the project name->
+the src-> then the package name 
